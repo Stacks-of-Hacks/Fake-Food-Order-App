@@ -23,7 +23,7 @@ menu = {
     }
 }
 
-# File path for saving orders
+# File path for saving your massive big-back orders
 ORDER_FILE = "order.json"
 
 # Load existing order if it exists
@@ -38,7 +38,7 @@ def save_order():
         json.dump(items, f)
 
 def add_item():
-    # Display available categories
+    # This does something if you read the code you will figure it out.
     print("Available categories:", ", ".join(menu.keys()))
     category = input("What category? ").strip()
     
